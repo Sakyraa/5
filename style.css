@@ -1,0 +1,71 @@
+body{
+  background:#e3e2e2;
+}
+
+#wrapper{
+  width: 900px;
+  margin: 0 auto;
+  background:#d3feff; 
+}
+
+#header{
+position:relative; 
+  height: 150px; 
+  background-color: #ffffff;
+   margin-bottom: 5px;
+  border-radius: 5px; 
+  background: url(img/header1.jpg) no-repeat center;
+float: left;
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; 
+}
+
+img{ 
+float: left; 
+} /* Размещаем картинку в блоке header. 1-я и 3-я цифры - двигаем вверх-вниз, 2-я и 4-я цифры - двигаем вправо-влево */
+h1{ /* Заголовок сайта */
+  margin:30px 40px 0px 40px; /* Заголовок двигается верх-вправо-вниз-влево. */
+  color:#000000; 
+;/* Цвет заголовка */
+}
+
+#sidebar{
+  background-color: #ffffff; 
+  width: 180px;
+  padding: 10px;
+  float: right; 
+  border-radius: 5px;
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+}
+
+#content{
+  margin-bottom: 5px;
+  width: 676px; 
+  padding: 10px;
+  background: #ffffff; 
+  border-radius: 5px;
+  float: left;
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+
+}
+
+.markers{ 
+  text-align: center;
+  font-weight: bold;
+}
+
+#footer{
+  height:80px; 
+  background-color: #ffffff; 
+  margin-bottom: 10px; 
+  border-radius: 5px;  
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+}
+.clear{ 
+  clear: both;
+}
+
+.mail{
+  float:left;
+ margin:20px 0 0 60px;
+}
+
